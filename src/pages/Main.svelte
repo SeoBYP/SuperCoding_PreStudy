@@ -1,0 +1,74 @@
+<script>
+  let hour = new Date().getHours();
+  let min = new Date().getMinutes();
+</script>
+
+<!--/*---------- Header Start ----------*/-->
+<header>
+  <div class="info-bar">
+    <div class="info-bar__time">{hour}:{min}</div>
+    <div class="info-bar__icons">
+      <img src="assets/chart-bar.svg" alt="chart-bar" />
+      <img src="assets/wifi.svg" alt="wifi" />
+      <img src="assets/battery-50.svg" alt="battery-50" />
+    </div>
+  </div>
+  <div class="menu-bar">
+    <div class="menu-bar__location">
+      <div>역삼 1동</div>
+      <div class="menu-bar__location--icon">
+        <img src="assets/arrow-down.svg" alt="arrow-down" />
+      </div>
+    </div>
+    <div class="menu-bar__icons">
+      <img src="assets/search.svg" alt="search" />
+      <img src="assets/menu.svg" alt="menu" />
+      <img src="assets/bell.svg" alt="bell" />
+    </div>
+  </div>
+</header>
+<!--/*---------- Header End ----------*/-->
+<!--/*---------- Main Start ----------*/-->
+<main>
+  <a class="write-btn" href="write.html">+ 글쓰기</a>
+</main>
+<!--/*---------- Main End ----------*/-->
+<!--/*---------- Footer Start ----------*/-->
+<footer>
+  <div class="footer-block">
+    <div class="footer-icons">
+      <div class="footer-icons__img">
+        <img src="assets/home.svg" alt="home" />
+      </div>
+      <div class="footer-icons--desc">홈</div>
+    </div>
+    <div class="footer-icons">
+      <div class="footer-icons__img">
+        <img src="assets/document.svg" alt="document" />
+      </div>
+      <div class="footer-icons--desc">동네생활</div>
+    </div>
+    <div class="footer-icons">
+      <div class="footer-icons__img">
+        <img src="assets/location.svg" alt="location" />
+      </div>
+      <div class="footer-icons--desc">내 근처</div>
+    </div>
+    <div class="footer-icons">
+      <div class="footer-icons__img">
+        <img src="assets/chat.svg" alt="chat" />
+      </div>
+      <div class="footer-icons--desc">채팅</div>
+    </div>
+    <div class="footer-icons">
+      <div class="footer-icons__img">
+        <img src="assets/user.svg" alt="user" />
+      </div>
+      <div class="footer-icons--desc">나의 당근</div>
+    </div>
+  </div>
+</footer>
+<div class="media-info-msg">화면 사이즈를 줄여주세요.</div>
+
+<style>
+</style>
